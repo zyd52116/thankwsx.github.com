@@ -1,4 +1,0 @@
-thankwsx
-========
-
-Self Blog
