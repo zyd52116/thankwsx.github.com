@@ -1,0 +1,22 @@
+#是否禁用plugins
+safe: false
+#是否watching站点内文件
+auto: true
+#是否开启一个本地server
+server: true
+#本地server的端口号
+server_port: 4000
+#base_url:	#基准路径
+#url:#站点url方便切换
+#
+#destination: 生成的站点路径目录
+#source: 源文件所在目录
+markdown: maruku #标记语言
+pygments: true #是否允许高亮标记
+#future: 未来发布
+lsi: true
+#permalink:永久链接格式
+#pagination:
+#exclude:
+#include:
+#limit_posts:
