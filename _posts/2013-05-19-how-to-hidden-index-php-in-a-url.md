@@ -17,6 +17,7 @@ excerpt: apache设置，在url中隐藏index.php的
 
 	</IfModule>
 
+```javascript
 alert(1);
-
+```
 http://www.5idev.com/p-thinkphp_htaccess_rewrite.shtml
