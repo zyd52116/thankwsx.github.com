@@ -2,6 +2,7 @@
 layout: post
 title: 如何在url中隐藏动态网址的index.php
 excerpt: apache设置，在url中隐藏index.php的
+tags: [apache,index.php,.htaccess]
 ---
 
 ### 如何在url中隐藏动态网址的index.php
