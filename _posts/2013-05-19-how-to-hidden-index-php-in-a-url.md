@@ -7,6 +7,7 @@ tags: [apache,index.php,.htaccess]
 
 ### 如何在url中隐藏动态网址的index.php
 
+```
 	<IfModule mod_rewrite.c>
 	RewriteEngine on
 
@@ -17,8 +18,6 @@ tags: [apache,index.php,.htaccess]
 	RewriteRule ^(.*)$ index.php/$1 [QSA,PT,L]
 
 	</IfModule>
-
-```javascript
-alert(1);
 ```
+
 http://www.5idev.com/p-thinkphp_htaccess_rewrite.shtml
