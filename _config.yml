@@ -11,7 +11,7 @@ server_port: 4000
 #
 #destination: 生成的站点路径目录
 #source: 源文件所在目录
-markdown: maruku #标记语言
+markdown: kramdown #标记语言
 pygments: true #是否允许高亮标记
 #future: 未来发布
 lsi: true
