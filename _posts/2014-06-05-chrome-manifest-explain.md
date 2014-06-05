@@ -5,6 +5,7 @@ excerpt: 简要介绍现有chrome扩展源码中的声明文件manifest.json
 ---
 
 ```javascript
+
 	{
 		"manifest_version":2,	//必须，且目前是固定的版本（2014）
 		"name":"扩展名称",
@@ -14,4 +15,5 @@ excerpt: 简要介绍现有chrome扩展源码中的声明文件manifest.json
 		"description":"对于扩展作用的描述",
 		"icons":{}
 	}
+	
 ```
