@@ -1,0 +1,28 @@
+---
+layout: post
+title: chrome.alarms
+excerpt: 介绍chrome.alarms的简单用法
+---
+
+chrome.alarms.create(string name,object alarmInfo)
+创建一个警告，如果有同名警告存在的话，之前的警告会被替换为最新的这个。警告最少间隔周期为1分钟，不过为了方便调试，在开发环境下（未打包）警告的频次没有限制。
+
+常用在Event Page中。
+
+相当与浏览器一级的setTimeout和setInterval，与页面无关可以定时执行一些任务。
+
+```
+//创建一个叫thankphp的时钟警告，延迟1分钟后执行，且之后定时每1分钟执行一次（近似1分钟而已）
+chrome.alarms.create("thankphp",{
+    delayInMinutes: 1,
+    periodInMinutes: 1
+});
+
+
+//在时钟警告触发时，可选执行函数
+chrome.alarms.onAlarm.addListener(function(alarm) {
+	console.log(alarm);
+  console.log("Time's up");
+});
+
+```
