@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 title: git svn命令使用流程
 excerpt: git svn命令使用流程
 ---
