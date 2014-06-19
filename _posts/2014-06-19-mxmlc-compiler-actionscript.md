@@ -13,6 +13,7 @@ excerpt: 使用FlexSDK中的mxmlc命令生成swf目标文件
 fso.as
 
 ```
+
 package  {
 	import flash.display.MovieClip;
 	public class fso {
@@ -21,6 +22,7 @@ package  {
 		}
 	}
 }
+
 ```
 
 3. 编写命令脚本
