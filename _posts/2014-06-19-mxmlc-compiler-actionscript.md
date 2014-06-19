@@ -15,7 +15,6 @@ fso.as
 ```
 package  {
 	import flash.display.MovieClip;
-
 	public class fso {
 		public function fso() {
 			
