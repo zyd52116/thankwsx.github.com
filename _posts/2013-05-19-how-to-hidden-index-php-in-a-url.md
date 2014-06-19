@@ -7,7 +7,7 @@ tags: [apache,index.php,.htaccess]
 
 ### 如何在url中隐藏动态网址的index.php
 
-~~~
+~~~ apache
 	<IfModule mod_rewrite.c>
 	RewriteEngine on
 
@@ -20,4 +20,4 @@ tags: [apache,index.php,.htaccess]
 	</IfModule>
 ~~~
 
-http://www.5idev.com/p-thinkphp_htaccess_rewrite.shtml
+[[http://www.5idev.com/p-thinkphp_htaccess_rewrite.shtml]]
