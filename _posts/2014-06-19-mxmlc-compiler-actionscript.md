@@ -2,6 +2,7 @@
 layout: post
 title: mxmlc编译actionscript生成swf
 excerpt: 使用FlexSDK中的mxmlc命令生成swf目标文件
+tags: [mxmlc,apache flex,fcsh,actionscript,flexsdk]
 ---
 
 1. 下载FlexSDK
