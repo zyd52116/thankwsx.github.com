@@ -11,6 +11,7 @@ excerpt: 使用FlexSDK中的mxmlc命令生成swf目标文件
 
 2. 编写ActionScript入口文件
 fso.as
+
 ```
 package  {
 	import flash.display.MovieClip;
@@ -25,7 +26,10 @@ package  {
 
 3. 编写命令脚本
 将编译命令单独编写到cmd.txt文件中，以备后续使用，主要是fcsh命令不支持执行上一个命令。
+
+```
 mxmlc -source-path /PATH/TO/ACTIONSCRIPT/PROJECT -static-link-runtime-shared-libraries=true -show-actionscript-warnings=false /PATH/TO/ACTIONSCRIPT/PROJECT/fso.as -o /PATH/TO/ACTIONSCRIPT/PROJECT/fso.swf
+```
 
 4. 命令编译
 进入fcsh命令，将步骤3中的命令代码拷贝进去，回车执行。
